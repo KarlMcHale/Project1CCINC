@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Contact Us</title>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101494084-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+<style>
+ul {
+    list-style-type: none;
+    margin: 20;
+    padding: 20;
+    overflow: hidden;
+    background-color: grey;
+   
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+ </head>
+  <body>
+      <header class="container jumbotron" style="height:150px; " >
+      <div class="row">
+                 <h2 class="col-md-9 text-center">Computer Careers, Inc.,<span class="glyphicon glyphicon-home" ></span></h2>
+         <figure class="col-md-3">
+<img src="images/CCILogo.jpg"  alt="cci logo" class="img-responsive" style="height:145px;"> </figure>
+         </div>
+   </header>
+     <nav class="container">
+      <ul class="nav">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="candidates.html">Candidates</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="jobs.html">Jobs</a></li>
+          <li><a href="employers.html">Employers</a></li>
+          <li><a href="about.html">About Us</a></li>
+      </ul>
+</nav>
+        <br>
+
+       
+    <div><h1 text-align:center> Candidate Section</h1></div>
+
+
+ <div><h3>Please describe the job opprotunities you are interested in:</h3></div>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact us</h2><hr/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form name="sentMessage" id="contactForm"
+                          action="https://formspree.io/karl@itcomputercareers.com" method="POST" >
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="name">Name*</label>
+                                <input type="text" class="form-control" id="name" name="name" 
+                                       required placeholder="First and Last Name (no special characters)" 
+                                       pattern="[A-Za-z]+\s[A-Za-z]+" >
+                            </div>
+                        </div>
+                          <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="name">Job Title*</label>
+                                <input type="text" class="form-control" id="name" name="name" 
+                                       required placeholder="Enter Current Job Title (no special characters)" 
+                                       pattern="[A-Za-z]+\s[A-Za-z]+" >
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="email">Email Address*</label>
+                                <input type="email" class="form-control" placeholder="username@domain.com" id="email" name="email"
+                                       required >
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="###-###-####" id="phone" name="phone"
+                                       pattern="\d{3}[\-]\d{3}[\-]\d{4}" >
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="message">Message*</label>
+                                <textarea rows="5" class="form-control" id="message" name="message"
+                                          placeholder="Enter your message here." required ></textarea>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg center-block">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+     <br>
+         <div class="container">
+
+      <p class="moto">
+     "We believe in the ruthless pursuit of excellence. We seek out and engage the very best of the very best"
+      </p></div>
+    </main>
+   <footer >
+         <p> &copy; copyright 2014 Computer Careers, Inc.</p>
+         <p>Contact information: <a href="mailto:karl@itcomputercareers.com">info@itcomputercareers.com</a></p>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
+ 
+
+
+
+

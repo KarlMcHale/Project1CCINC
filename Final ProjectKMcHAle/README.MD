@@ -1,0 +1,2 @@
+## Instructions
+This is an example of a very simple Web page that includes the Bootstrap framework. It does't really use any classes from the framework and only includes a small amount of content. However, it does have the neccesary links to the Bootstrap stylesheets and scripts already included. Use this a starting page for exploring Bootstrap.
